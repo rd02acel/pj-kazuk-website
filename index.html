@@ -25,7 +25,14 @@
     <!-- Font:OPEN SANS -->
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
 </head>
-<body>
+<body 
+    onbeforecopy = "return false"
+    ondragstart = "return false" 
+    onselectstart = "return false" 
+    oncontextmenu = "return false" 
+    onselect = "document.selection.empty()" 
+    oncopy = "document.selection.empty()"
+>
     <div id="L0" class="w3-container">
         
         <!-- FLOATING ICON -->
@@ -158,23 +165,24 @@
                     
                         <!-- FUEL -->
                         <div class="w3-col w3-center m6 s8"  >
-                            <div class="w3-left-align acel-font" style="width: 100%; margin-top: 20px; color: #988575; font-weight: 500;">Fuel</div>
-                            <div class="w3-row" style=" margin-top: 10px;margin-bottom: 10px; color: rgba(54, 69, 79, 0.5);">
+                            <div class="w3-left-align acel-font" style="width: 100%; margin-top: 20px; color: #988575; font-weight: 500; font-size: 1.5rem;">Fuel</div>
+                            
+                            <div class="w3-row" style=" margin-top: 15px;margin-bottom: 15px; color: rgba(54, 69, 79, 0.5);  align-items: center; display: flex;">
                                 <div class="w3-col  s8" style="background-color: #F1f2f2; border-radius: 8px;position: relative;">
-                                    <div id = "b0" style="width:1%; background-color: #E0E2E3;border-radius: 8px; padding-bottom: 5px;">&nbsp;</div>
-                                    <div id = "a0" style="position: absolute; top:0% ; text-align: left;padding: 2.5px 10px 2.5px 10px;"> &nbsp; </div>
+                                    <div id = "b0" style="width:1%; background-color: #E0E2E3;border-radius: 8px; padding-bottom: 20px;">&nbsp;</div>
+                                    <div id = "a0" style="position: absolute; top:13% ; text-align: left;padding: 5px 10px 5px 10px;"> &nbsp; </div>
                                 </div>
-                                <div class="w3-col s4" style="text-align: left; padding-left: 5px; color: rgba(54, 69, 79, 1);">
+                                <div class="w3-col s4" style="text-align: left; padding-left: 5px; color: rgba(54, 69, 79, 1); align-items: center; display: flex;">
                                      $100,000
                                 </div>
                             </div>
 
-                            <div class="w3-row" style=" margin-top: 10px;margin-bottom: 10px; color: #36454F;">
+                            <div class="w3-row" style=" margin-top: 15px;margin-bottom: 15px; color: #36454F; align-items: center; display: flex;">
                                 <div class="w3-col  s8" style="background-color: #E8EBF2; border-radius: 8px;position: relative;">
-                                    <div id = "b1" style="width:1%; background-color: #8E9DBF;border-radius: 8px; padding-bottom: 5px;">&nbsp;</div>
-                                    <div id = "a1" style="position: absolute; top:0% ; text-align: left;padding: 2.5px 10px 2.5px 10px;"> &nbsp; </div>
+                                    <div id = "b1" style="width:1%; background-color: #8E9DBF;border-radius: 8px; padding-bottom: 20px;">&nbsp;</div>
+                                    <div id = "a1" style="position: absolute; top:13% ; text-align: left;padding: 5px 10px 5px 10px;"> &nbsp; </div>
                                 </div>
-                                <div class="w3-col s4" style="text-align: left; padding-left: 5px; color: rgba(54, 69, 79, 1);">
+                                <div class="w3-col s4" style="text-align: left; padding-left: 5px; color: rgba(54, 69, 79, 1); ">
                                      $100,000
                                 </div>
                             </div>
@@ -182,22 +190,22 @@
                         </div>
                         <!-- MAINTENANCE -->
                         <div class="w3-col w3-center m6 s8"  >
-                            <div class="w3-left-align acel-font" style="width: 100%;margin-top: 20px; color: #988575; font-weight: 500;">Maintenance</div>
+                            <div class="w3-left-align acel-font" style="width: 100%;margin-top: 20px; color: #988575; font-weight: 500; font-size: 1.5rem;">Maintenance</div>
                             
-                            <div class="w3-row" style=" margin-top: 10px;margin-bottom: 10px; color: rgba(54, 69, 79, 0.5);">
+                            <div class="w3-row" style=" margin-top: 15px;margin-bottom: 15px; color: rgba(54, 69, 79, 0.5);  align-items: center; display: flex;">
                                 <div class="w3-col  s8" style="background-color: #F1f2f2; border-radius: 8px;position: relative;">
-                                    <div id = "b2" style="width:1%; background-color: #E0E2E3;border-radius: 8px; padding-bottom: 5px;">&nbsp;</div>
-                                    <div id = "a2" style="position: absolute; top:0% ; text-align: left;padding: 2.5px 10px 2.5px 10px;"> &nbsp; </div>
+                                    <div id = "b2" style="width:1%; background-color: #E0E2E3;border-radius: 8px; padding-bottom: 20px;">&nbsp;</div>
+                                    <div id = "a2" style="position: absolute; top:13% ; text-align: left;padding: 5px 10px 5px 10px;"> &nbsp; </div>
                                 </div>
                                 <div class="w3-col s4" style="text-align: left; padding-left: 5px; color: rgba(54, 69, 79, 1);">
                                      $10,000
                                 </div>
                             </div>
 
-                            <div class="w3-row" style=" margin-top: 10px;margin-bottom: 10px;color: #36454F;">
-                                <div class="w3-col  s8" style="background-color: #E8EBF2; border-radius: 8px;position: relative;">
-                                    <div id = "b3" style="width:1%; background-color: #8E9DBF;border-radius: 8px; padding-bottom: 5px;">&nbsp;</div>
-                                    <div id = "a3" style="position: absolute; top:0% ; text-align: left;padding: 2.5px 10px 2.5px 10px;"> &nbsp; </div>
+                            <div class="w3-row" style=" margin-top: 15px;margin-bottom: 15px;color: #36454F; align-items: center; display: flex;">
+                                <div class="w3-col  s8" style="background-color: #E8EBF2; border-radius: 8px;position: relative; ">
+                                    <div id = "b3" style="width:1%; background-color: #8E9DBF;border-radius: 8px; padding-bottom: 20px;">&nbsp;</div>
+                                    <div id = "a3" style="position: absolute; top:13% ; text-align: left;padding: 5px 10px 5px 10px;"> &nbsp; </div>
                                 </div>
                                 <div class="w3-col s4" style="text-align: left; padding-left: 5px; color: rgba(54, 69, 79, 1);">
                                      $10,000
@@ -245,8 +253,9 @@
                 <div class="w3-rest w3-center">
                     <div class="w3-row" style="margin-top: 20px;">
                         <div class="w3-col s2 acel-l4-gap w3-left">&nbsp;</div>
+                        <div class="w3-col s2 acel-l4-gap w3-right">&nbsp;</div>
                         <div class="w3-rest">
-                            <img loading="lazy"  src="res/4/Specifications.png"  alt="" style="width: 70%;">
+                            <img loading="lazy"  src="res/4/Specifications.png"  alt="" style="width: 50%;">
                         </div>
 
                     </div>
@@ -281,7 +290,7 @@
     </div>    
 
     <!-- FOOTER -->
-    <div id="L5" class="w3-container">
+    <div id="L5" class="">
         <div class="w3-row w3-center" style="padding: 30px 0 20px 0;" >
             <div class="w3-col s1 w3-left ">&nbsp;</div>
             <div class="w3-col s1 w3-right">&nbsp;</div>
@@ -302,7 +311,11 @@
                     </div>
 
                 </div>
+
+                <!-- Default disclaimer -->
                 <div class="w3-col w3-left  l5 m6 s12 acel-l5-hide" style=""><img loading="lazy"  src="res/5/Frame 162.png" alt="" style="width: 100%;"></div>
+
+                <!-- ALT smaller version -->
                 <div class="w3-col w3-left  l5 m6 s12 acel-l5-appear" style="margin-top: 20px; display: none;"><img loading="lazy"  src="res/5/Frame 163.png" alt="" style="width: 100%;"></div>
                 <div class="w3-rest w3-center">&nbsp;</div>
             </div>

@@ -1,3 +1,13 @@
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
 #L0 {
     background: url('../res/0/image\ 61.png') no-repeat center center;
     background-size: cover; /* or 'contain' if you prefer to keep the aspect ratio without cropping */
