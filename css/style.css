@@ -209,6 +209,14 @@ to { --num3: 300; }
         display:block;
     }
 
+    .acel-l3-hide{
+        display: none;
+    }
+
+    .acel-l3-appear{
+        display:block !important;
+    }
+
     .acel-l4-overflow{
         overflow: visible;
     }
