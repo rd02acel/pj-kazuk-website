@@ -20,7 +20,8 @@
 }
 
 #L5 {
-    background: url('../res/5/image\ 63.png') no-repeat center center;
+    background-color: #f9f9f9;
+    background: url('../res/5/image\ 63.png') no-repeat center center, #f9f9f9;
     background-size: cover; /* or 'contain' if you prefer to keep the aspect ratio without cropping */
 }
 
