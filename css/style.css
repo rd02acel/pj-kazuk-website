@@ -1,0 +1,217 @@
+#L0 {
+    background: url('../res/0/image\ 61.png') no-repeat center center;
+    background-size: cover; /* or 'contain' if you prefer to keep the aspect ratio without cropping */
+}
+
+#L1 {
+    background-color: #f9f9f9;
+}
+
+
+
+
+#L3 {
+    background: url('../res/3/Rectangle\ 21.png') no-repeat center center;
+    background-size: cover; /* or 'contain' if you prefer to keep the aspect ratio without cropping */
+}
+
+#L4 {
+    background-color: #f9f9f9;
+}
+
+#L5 {
+    background: url('../res/5/image\ 63.png') no-repeat center center;
+    background-size: cover; /* or 'contain' if you prefer to keep the aspect ratio without cropping */
+}
+
+
+
+#L0-cta-register:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+#L0-cta-bookdemo:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#L5-cta-register:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#L5-cta-bookdemo:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.acel-font{
+    font-family: 'Open Sans';
+}
+.acel-brown{
+    color: #988575;
+}
+.acel-coolgrey{
+    color: #8b9198;
+}
+
+.acel-title{
+    font-size: 20px;font-family: 'Open Sans'; color: #36454f;
+    font-weight:500;
+}
+.acel-content{
+    font-size: 12px;font-family: 'Open Sans'; color: #8b9198;
+}
+.acel-banner1{
+    text-align: left;
+}
+.acel-banner2{
+    text-align: center;
+    padding-left: 25px;
+}
+.acel-banner3{
+    text-align: center;
+    padding-left: 85px;
+}
+
+.acel-small-filler{
+    display: none;
+}
+
+/* @property --num0 {
+    syntax: '<integer>';
+    inherits: true;
+    initial-value: 0;
+}
+@property --num1 {
+    syntax: '<integer>';
+    inherits: true;
+    initial-value: 0;
+}
+@property --num2 {
+    syntax: '<integer>';
+    inherits: true;
+    initial-value: 0;
+}
+@property --num3 {
+    syntax: '<integer>';
+    inherits: true;
+    initial-value: 0;
+}
+
+#a0::before {
+    counter-reset: my-counter0 var(--num0);
+    content: "$" counter(my-counter0);
+    animation: count0 5s ease-in-out forwards;
+}
+#a1::before {
+    counter-reset: my-counter1 var(--num1);
+    content: "$" counter(my-counter1);
+    animation: count1 5s ease-in-out forwards;
+}
+#a2::before {
+    counter-reset: my-counter2 var(--num2);
+    content: "$" counter(my-counter2);
+    animation: count2 5s ease-in-out forwards;
+}
+#a3::before {
+    counter-reset: my-counter3 var(--num3);
+    content: "$" counter(my-counter3);
+    animation: count3 5s ease-in-out forwards;
+}
+  
+@keyframes count0 {
+to { --num0: 82000; }
+}
+@keyframes count1 {
+to { --num1: 9600; }
+}
+@keyframes count2 {
+to { --num2: 6000; }
+}
+@keyframes count3 {
+to { --num3: 300; }
+} */
+
+
+/* For any viewports less than 1000px wide */
+@media (max-width: 1000px) {
+
+    #L0 {
+        background-size: 1000px 100%;  /* Force the image to its minimum width */
+    }
+
+
+    .acel-title{
+        font-size: 3vmin;
+    }
+    .acel-content{
+        font-size: 1.5vmin;
+    }
+
+    .acel-banner1{
+        text-align: left !important;
+        padding-left:0px;
+    }
+    .acel-banner2{
+        text-align: left !important;
+        padding-left:0px;
+    }
+    .acel-banner3{
+        text-align: left !important;
+        padding-left:0px;
+    }
+
+
+}
+
+/* For any viewports less than 1000px wide */
+@media (max-width: 600px) {
+
+    #floting-icon{
+        visibility: hidden;
+    }
+
+    /* .acel-small-banner{
+        width: 60% !important;
+    } */
+
+    .acel-title{
+        font-size: 4vw;
+    }
+    .acel-content{
+        font-size: 2vw;
+    }
+
+    .acel-l4-gap{
+        display: none;
+    }
+
+    .acel-l4-51-gap{
+        margin-top:20px !important;
+        /* width: 40% !important; */
+    }
+
+    .acel-small-filler{
+        display:block;
+    }
+
+    .acel-l4-overflow{
+        overflow: visible;
+    }
+
+    .acel-l5-smallbtn{
+        width: 60% !important;
+    }
+
+    .acel-l5-hide{
+        display: none;
+    }
+
+    .acel-l5-appear{
+        display:block !important;
+    }
+
+}
