@@ -79,4 +79,70 @@ $(document).ready(function(){
         window.location="https://forms.office.com/r/JwQyuBKnkj";
     });    
 
+
+    $('#L0-cta-register').hover(
+        function() {
+            // On mouse enter: fade out, change src, then fade back in
+            $(this).fadeOut(10, function() {
+                $(this).attr('src', 'res/0/Frame 133Inv.png').fadeIn(200);
+            });
+        }, 
+        function() {
+            // On mouse leave: fade out, change src back, then fade back in
+            $(this).fadeOut(10, function() {
+                $(this).attr('src', 'res/0/Frame 133.png').fadeIn(200);
+            });
+        }
+    );
+
+
+    $('#L0-cta-bookdemo').hover(
+        function() {
+            // On mouse enter: fade out, change src, then fade back in
+            $(this).fadeOut(10, function() {
+                $(this).attr('src', 'res/0/Frame 132Inv.png').fadeIn(200);
+            });
+        }, 
+        function() {
+            // On mouse leave: fade out, change src back, then fade back in
+            $(this).fadeOut(10, function() {
+                $(this).attr('src', 'res/0/Frame 132.png').fadeIn(200);
+            });
+        }
+    );
+
+
+    $('#L5-cta-register').hover(
+        function() {
+            // On mouse enter: fade out, change src, then fade back in
+            $(this).fadeOut(10, function() {
+                $(this).attr('src', 'res/5/Frame 133Inv.png').fadeIn(200);
+            });
+        }, 
+        function() {
+            // On mouse leave: fade out, change src back, then fade back in
+            $(this).fadeOut(10, function() {
+                $(this).attr('src', 'res/5/Frame 133.png').fadeIn(200);
+            });
+        }
+    );
+
+
+    $('#L5-cta-bookdemo').hover(
+        function() {
+            // On mouse enter: fade out, change src, then fade back in
+            $(this).fadeOut(10, function() {
+                $(this).attr('src', 'res/5/Frame 132Inv.png').fadeIn(200);
+            });
+        }, 
+        function() {
+            // On mouse leave: fade out, change src back, then fade back in
+            $(this).fadeOut(10, function() {
+                $(this).attr('src', 'res/5/Frame 132.png').fadeIn(200);
+            });
+        }
+    );
+
+
+
 });
