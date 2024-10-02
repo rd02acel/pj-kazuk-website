@@ -38,28 +38,28 @@ body{
 
 
 #L0-cta-register:hover {
-    /* box-shadow: 0 5px 15px rgba(0,0,0,0.3); */
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transition: box-shadow 0.3s ease-in-out;
+    /* box-shadow: 0 5px 15px rgba(132,132,132,0.3); */
+    box-shadow: 0 3px 16px rgba(132,132,132,0.16), 0 3px 16px rgba(132,132,132,0.23);
+    transition: box-shadow 0.1s ease-in-out;
 }
 
 
 #L0-cta-bookdemo:hover {
-    /* box-shadow: 0 5px 15px rgba(0,0,0,0.3); */
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transition: box-shadow 0.3s ease-in-out;
+    /* box-shadow: 0 5px 15px rgba(132,132,132,0.3); */
+    box-shadow: 0 3px 16px rgba(132,132,132,0.16), 0 3px 16px rgba(132,132,132,0.23);
+    transition: box-shadow 0.1s ease-in-out;
 }
 
 #L5-cta-register:hover {
-    /* box-shadow: 0 5px 15px rgba(0,0,0,0.3); */
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transition: box-shadow 0.3s ease-in-out;
+    /* box-shadow: 0 5px 15px rgba(132,132,132,0.3); */
+    box-shadow: 0 3px 16px rgba(132,132,132,0.16), 0 3px 16px rgba(132,132,132,0.23);
+    transition: box-shadow 0.1s ease-in-out;
 }
 
 #L5-cta-bookdemo:hover {
-    /* box-shadow: 0 5px 15px rgba(0,0,0,0.3); */
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transition: box-shadow 0.3s ease-in-out;
+    /* box-shadow: 0 5px 15px rgba(132,132,132,0.3); */
+    box-shadow: 0 3px 16px rgba(132,132,132,0.16), 0 3px 16px rgba(132,132,132,0.23);
+    transition: box-shadow 0.1s ease-in-out;
 }
 
 .acel-font{
@@ -73,11 +73,11 @@ body{
 }
 
 .acel-title{
-    font-size: 20px;font-family: 'Open Sans'; color: #36454f;
+    font-size: 1.8rem;font-family: 'Open Sans'; color: #36454f;
     font-weight:600;
 }
 .acel-content{
-    font-size: 12px;font-family: 'Open Sans'; color: #8b9198;
+    font-size: 1.2rem;font-family: 'Open Sans'; color: #8b9198;font-weight: 600;
 }
 .acel-banner1{
     text-align: left;
@@ -94,6 +94,8 @@ body{
 .acel-small-filler{
     display: none;
 }
+
+
 
 /* @property --num0 {
     syntax: '<integer>';
@@ -158,6 +160,10 @@ to { --num3: 300; }
         background-size: 1000px 100%;  /* Force the image to its minimum width */
     }
 
+    #L2-616{
+        width: 20% !important;
+    }
+
 
     .acel-title{
         font-size: 3vmin;
@@ -213,12 +219,20 @@ to { --num3: 300; }
         display:block;
     }
 
+    #L2-616{
+        width: 40% !important;
+    }
+
     .acel-l3-hide{
         display: none;
     }
 
     .acel-l3-appear{
         display:block !important;
+    }
+
+    #L3-pic{
+        margin: 10px 0 20px 0 !important;
     }
 
     .acel-l4-overflow{
